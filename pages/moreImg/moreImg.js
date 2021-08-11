@@ -1,31 +1,11 @@
-// pages/revolution/revolution.js
+// pages/moreImg/moreImg.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    revImgList: ["../../img/IMG20210806152030.jpg", "../../img/IMG20210806152116.jpg", "../../img/IMG20210806152039.jpg", "../../img/IMG20210806152701.jpg"],
-    currentTab: 2,
     imgShowData: ["../../img/IMG20210806152030.jpg", "../../img/IMG20210806152116.jpg", "../../img/IMG20210806152039.jpg", "../../img/IMG20210806152701.jpg", "../../img/IMG20210806152133.jpg", "../../img/IMG20210806152337.jpg"],
-    isBigImgShow: false,
-    bigImgSrc: ""
-  },
-
-  changeNavTab(evt) {
-    //切换tab栏的点击事件，通过修改data中的currentTab实现
-    const currentIdx = evt.target.dataset.id;
-    if(this.data.currentTab !== currentIdx) {
-      this.setData({
-        currentTab: +currentIdx
-      })
-    }
-  },
-
-  toMorePage() {
-    wx.navigateTo({
-      url: '../moreImg/moreImg',
-    })
   },
 
   /**

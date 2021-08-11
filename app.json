@@ -5,7 +5,8 @@
     "pages/studyPlace/studyPlace",
     "pages/revolution/revolution",
     "pages/shangDaHistory/shangDaHistory",
-    "pages/peopleInfo/peopleInfo"
+    "pages/peopleInfo/peopleInfo",
+    "pages/moreImg/moreImg"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,22 +17,28 @@
   "tabBar": {
     "selectedColor": "#ef834c",
     "color": "#ff4a4a",
-    "list": [{
-      "text": "探寻出生地",
-      "pagePath": "pages/birthplace/birthplace"
-    }, {
-      "text": "探访求学地",
-      "pagePath": "pages/studyPlace/studyPlace"
-    }, {
-      "text": "追忆革命地",
-      "pagePath": "pages/revolution/revolution"
-    }, {
-      "text": "宣扬上大史",
-      "pagePath": "pages/shangDaHistory/shangDaHistory"
-    }, {
-      "text": "人物风采",
-      "pagePath": "pages/peopleInfo/peopleInfo"
-    }]
+    "list": [
+      {
+        "text": "探寻出生地",
+        "pagePath": "pages/birthplace/birthplace"
+      },
+      {
+        "text": "探访求学地",
+        "pagePath": "pages/studyPlace/studyPlace"
+      },
+      {
+        "text": "追忆革命地",
+        "pagePath": "pages/revolution/revolution"
+      },
+      {
+        "text": "宣扬上大史",
+        "pagePath": "pages/shangDaHistory/shangDaHistory"
+      },
+      {
+        "text": "人物风采",
+        "pagePath": "pages/peopleInfo/peopleInfo"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

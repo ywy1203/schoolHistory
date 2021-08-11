@@ -1,2 +1,17 @@
 <!--pages/revolution/revolution.wxml-->
-<text>pages/revolution/revolution.wxml</text>
+<view class="container">
+  <my-swiper s-class="swiperStyle" imgList="{{revImgList}}" />
+  <view class="navBar">
+    <view class="header">
+      <view class="headerInfo {{currentTab === 1 ? 'infoCurrent': ''}}" bind:tap="changeNavTab" data-id="1">相关介绍</view>
+      <view class="headerInfo {{currentTab === 2 ? 'infoCurrent': ''}}" bind:tap="changeNavTab" data-id="2">图片展示</view>
+    </view>
+    <view class="body">
+      <view class="bodyInfo {{currentTab === 1 ? 'bodyCurrent': ''}}">相关介绍</view>
+      <view class="bodyInfo {{currentTab === 2 ? 'bodyCurrent': ''}}">
+        <bigImg imgShowData="{{imgShowData}}"/>
+        <view class="more" bind:tap="toMorePage">更多图片 >></view>
+      </view>
+    </view>
+  </view>
+</view>
