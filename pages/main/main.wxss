@@ -1,9 +1,7 @@
 /* pages/main/main.wxss */
 
-.img {
+.swiper {
   height: 400rpx;
-  display: flex;
-  border-bottom: 1px solid #000;
 }
 
 .text {
@@ -23,5 +21,9 @@
   background-color: #ccc;
   margin-bottom: 20rpx;
   line-height: 140rpx;
+  text-align: center;
+}
+
+.introduce {
   text-align: center;
 }

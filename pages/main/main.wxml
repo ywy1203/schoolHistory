@@ -1,13 +1,15 @@
 <!--pages/main/main.wxml-->
 <view class="container">
-  <view class="img">
-    <text class="text">展示的图片</text>
-  </view>
+  <my-swiper s-class="swiper" imgList="{{swiperImgList}}"/>
   <view class="directBtn">
     <view class="commonStyle birthplace" data-url="/pages/birthplace/birthplace" bind:tap="onDirectTo">探寻出生地</view>
     <view class="commonStyle studyPlace" data-url="/pages/studyPlace/studyPlace" bind:tap="onDirectTo">探访求学地</view>
     <view class="commonStyle revolution" data-url="/pages/revolution/revolution" bind:tap="onDirectTo">追忆革命地</view>
-    <view class="commonStyle shangDaHistory" data-url="/pages/shangDaHistory/shangDaHistory" bind:tap="onDirectTo">宣扬上大史</view>
+    <view class="commonStyle shangDaHistory" data-url="/pages/shangDaHistory/shangDaHistory" bind:tap="onDirectTo">宣扬上大史
+    </view>
     <view class="commonStyle peopleInfo" data-url="/pages/peopleInfo/peopleInfo" bind:tap="onDirectTo">人物风采</view>
+  </view>
+  <view class="introduce">
+    人物介绍。。。
   </view>
 </view>

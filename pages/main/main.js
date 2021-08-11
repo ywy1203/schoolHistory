@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    swiperImgList: ["../../img/IMG20210806152030.jpg", "../../img/IMG20210806152116.jpg", "../../img/IMG20210806152039.jpg", "../../img/IMG20210806152701.jpg"]
   },
 
   /**
@@ -65,10 +65,12 @@ Page({
   },
 
   onDirectTo(evt) {
-    const { url } = evt.target.dataset;
+    const {
+      url
+    } = evt.target.dataset;
     wx.switchTab({
       url
     })
-    
+
   }
 })

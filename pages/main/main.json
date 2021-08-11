@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "my-swiper": "/components/swiper/index"
+  },
   "navigationBarTitleText": "百年校史寻访"
 }
