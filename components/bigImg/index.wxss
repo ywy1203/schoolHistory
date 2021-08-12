@@ -27,7 +27,7 @@ view.show {
   left: 0;
   top: 0;
   display: none;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100vw;
   height: 100%;
 }
@@ -42,6 +42,8 @@ view.show {
 }
 
 .content .title {
+  border-top: 1px solid #fff;
   text-align: center;
-  color: #fff;
+  color: #000;
+  background-color: #fff;
 }
