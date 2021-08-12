@@ -6,7 +6,7 @@ Page({
    */
   data: {
     revImgList: ["../../img/IMG20210806152030.jpg", "../../img/IMG20210806152116.jpg", "../../img/IMG20210806152039.jpg", "../../img/IMG20210806152701.jpg"],
-    currentTab: 2,
+    currentTab: 1,
     imgShowData: ["../../img/IMG20210806152030.jpg", "../../img/IMG20210806152116.jpg", "../../img/IMG20210806152039.jpg", "../../img/IMG20210806152701.jpg", "../../img/IMG20210806152133.jpg", "../../img/IMG20210806152337.jpg"],
     isBigImgShow: false,
     bigImgSrc: ""

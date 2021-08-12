@@ -25,6 +25,15 @@
   text-align: center;
 }
 
-.introduce {
+.title {
+  font-size: 36rpx;
+  font-weight: 700;
   text-align: center;
+}
+
+.introduce {
+  text-indent: 2em;
+  padding: 0 40rpx;
+  font-size: 28rpx;
+  line-height: 1.5;
 }

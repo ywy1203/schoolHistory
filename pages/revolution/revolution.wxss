@@ -59,3 +59,9 @@ view.bodyCurrent {
   bottom: 10rpx;
   font-size: 24rpx;
 }
+
+.introduce {
+  padding: 20rpx 40rpx;
+  font-size: 28rpx;
+  line-height: 1.5;
+}
