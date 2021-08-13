@@ -20,23 +20,33 @@
     "list": [
       {
         "text": "探寻出生地",
-        "pagePath": "pages/birthplace/birthplace"
+        "pagePath": "pages/birthplace/birthplace",
+        "iconPath": "./img/baricon/unselected/探寻出生地.png",
+        "selectedIconPath": "./img/baricon/selected/探寻出生地.png"
       },
       {
         "text": "探访求学地",
-        "pagePath": "pages/studyPlace/studyPlace"
+        "pagePath": "pages/studyPlace/studyPlace",
+        "iconPath": "./img/baricon/unselected/探访求学地.png",
+        "selectedIconPath": "./img/baricon/selected/探访求学地.png"
       },
       {
         "text": "追忆革命地",
-        "pagePath": "pages/revolution/revolution"
+        "pagePath": "pages/revolution/revolution",
+        "iconPath": "./img/baricon/unselected/追忆革命地.png",
+        "selectedIconPath": "./img/baricon/selected/追忆革命地.png"
       },
       {
         "text": "宣扬上大史",
-        "pagePath": "pages/shangDaHistory/shangDaHistory"
+        "pagePath": "pages/shangDaHistory/shangDaHistory",
+        "iconPath": "./img/baricon/unselected/宣扬上大史.png",
+        "selectedIconPath": "./img/baricon/selected/宣扬上大史.png"
       },
       {
         "text": "人物风采",
-        "pagePath": "pages/peopleInfo/peopleInfo"
+        "pagePath": "pages/peopleInfo/peopleInfo",
+        "iconPath": "./img/baricon/unselected/人物风采.png",
+        "selectedIconPath": "./img/baricon/selected/人物风采.png"
       }
     ]
   },

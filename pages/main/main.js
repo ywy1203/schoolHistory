@@ -71,6 +71,5 @@ Page({
     wx.switchTab({
       url
     })
-
   }
 })
