@@ -1,7 +1,7 @@
 {
   "usingComponents": {
     "my-swiper": "/components/swiper/index",
-    "indexBtn": "/components/indexBtn/index"
+    "indexBtn": "/components/birthplace_btn/index"
   },
   "navigationBarTitleText": "探寻出生地"
 }
