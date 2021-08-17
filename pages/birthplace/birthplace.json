@@ -1,4 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "my-swiper": "/components/swiper/index",
+    "indexBtn": "/components/indexBtn/index"
+  },
   "navigationBarTitleText": "探寻出生地"
 }

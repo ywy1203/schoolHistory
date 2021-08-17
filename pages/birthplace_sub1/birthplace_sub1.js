@@ -1,24 +1,12 @@
-// pages/birthplace/birthplace.js
+// pages/birthplace/birthplace_sub1.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    revImgList: ["../../img/IMG_birthplace_2.jpg", "../../img/IMG_birthplace_1.jpg"],
-    currentTab: 2,
+    revImgList: ["../../img/IMG_guju.jpg"]
   },
-
-  changeNavTab(evt) {
-    //切换tab栏的点击事件，通过修改data中的currentTab实现
-    const currentIdx = evt.target.dataset.id;
-    if(this.data.currentTab !== currentIdx) {
-      this.setData({
-        currentTab: +currentIdx
-      })
-    }
-  },
-
 
   /**
    * 生命周期函数--监听页面加载
@@ -74,18 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  
-
-  birth_sub1() {
-    wx.navigateTo({
-      url: '../birthplace_sub1/birthplace_sub1',                                                 
-    })
-  },
-  birth_sub2() {
-    wx.navigateTo({
-      url: '../birthplace_sub2/birthplace_sub2',                                                 
-    })
   }
-  
 })

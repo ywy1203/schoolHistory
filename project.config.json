@@ -22,8 +22,8 @@
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
     "lazyloadPlaceholderEnable": false,
-    "useMultiFrameRuntime": true,
-    "useApiHook": true,
+    "useMultiFrameRuntime": false,
+    "useApiHook": false,
     "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
@@ -40,7 +40,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.19.0",
-  "appid": "wx804d4f059b0afe88",
+  "appid": "touristappid",
   "projectname": "%E7%BA%BF%E4%B8%8A%E7%BA%AA%E5%BF%B5%E9%A6%86",
   "debugOptions": {
     "hidedInDevtools": []

@@ -6,7 +6,9 @@
     "pages/revolution/revolution",
     "pages/shangDaHistory/shangDaHistory",
     "pages/peopleInfo/peopleInfo",
-    "pages/moreImg/moreImg"
+    "pages/moreImg/moreImg",
+    "pages/birthplace_sub1/birthplace_sub1",
+    "pages/birthplace_sub2/birthplace_sub2"
   ],
   "window": {
     "backgroundTextStyle": "light",
