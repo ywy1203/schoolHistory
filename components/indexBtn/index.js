@@ -27,7 +27,6 @@ Component({
       wx.switchTab({
         url
       })
-      console.log(evt);
     }
   }
 })
