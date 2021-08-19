@@ -5,7 +5,6 @@ Component({
    */
   properties: {
     text: String,
-    url: String,
     src: String
   },
 
@@ -19,14 +18,5 @@ Component({
   /**
    * 组件的方法列表
    */
-  methods: {
-    onDirectTo(evt) {
-      const {
-        url
-      } = evt.currentTarget.dataset;
-      wx.switchTab({
-        url
-      })
-    }
-  }
+  
 })
